@@ -1,0 +1,8 @@
+Hello, it's Jad Mattar. This is a description file of the project.
+
+In this file, we are going to send and receive data via WiFi.
+
+Three experiments are done at once: controlling light, controlling servo motor and reading LDR sensor values.
+
+We have used ESP32 controller. We controlled the built-in led at pin 2 and connected the servo motor to pin 18 and the LDR to pin 34.
+We set the WiFi mode to station and connected to WiFi and tested. The LED can turn ON and OFF. The servo motor can rotate between 0 and 180 degrees. The LDR values are printed on the webpage each 5 seconds and are saved in JSON file.
